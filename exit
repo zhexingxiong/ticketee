@@ -1,0 +1,41 @@
+commit 399407a2542647f6ac54f83bbf07b80ab7c05022
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 13:38:19 2012 -0600
+
+    Added updating projects functionality
+
+commit dc6012e3f6237ec0c451f65f230bb031c2217e47
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 13:10:16 2012 -0600
+
+    Added the ability to view a list of all projects
+
+commit c2cd855ab79af5c223f965f704446e343a0aa499
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 12:49:16 2012 -0600
+
+    Add validation to ensure names are specified when creating projects
+
+commit 4929a21c8ea542481124705801184af4e6b1defc
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 10:31:28 2012 -0600
+
+    Added title functionality for show page
+
+commit f351d4e4e6fd40dd9a306b7883562bc178b657b6
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 09:40:04 2012 -0600
+
+    Creation of projects feature complete
+
+commit 0784f64592e6e414260e041b5993c56d152acff9
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sun Jan 29 08:21:38 2012 -0600
+
+    Ran the cucumber and rspec generators
+
+commit 8861c6781c107744834dc311292953c8432fee2f
+Author: Xing Xiong <xiongxing@gmail.com>
+Date:   Sat Jan 28 21:32:39 2012 -0600
+
+    Generated the Rails 3 Application
