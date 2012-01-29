@@ -1,1 +1,1 @@
-<% @title = "TextMate 2 - Projects - Ticketee" %>
+<% title(@project.name, "Projects") %>
