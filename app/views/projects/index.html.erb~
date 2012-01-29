@@ -1,1 +1,1 @@
-<%= link_to new_project_path, "New Project" %>
+<%= link_to "New Project", new_project_path%>
