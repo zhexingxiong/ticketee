@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>
-    <% if content_for?(:title) -%>
+    <% if content_for?(:title) %>
       <%= yield(:title) %>
-    <% else -%>
+    <% else %>
       Ticketee
-    <% end -%>
+    <% end %>
   </title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
@@ -18,7 +18,7 @@
     <%= value %>
   </div>
 <% end %>
-
+<h1><%= link_to "Ticketee", root_path %></h1>
 <%= yield %>
 
 </body>

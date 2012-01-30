@@ -1,6 +1,10 @@
 class TicketsController < ApplicationController
 before_filter :find_project
 before_filter :find_ticket, :only => [:show, :edit, :update, :destroy]
+  
+  def show
+  end
+  
   def new
     @ticket = @project.tickets.build
   end
@@ -14,6 +18,10 @@ before_filter :find_ticket, :only => [:show, :edit, :update, :destroy]
       flash[:alert] = "Ticket has not been created."
       render :action => "new"
     end
+  end
+  
+  def edit
+    
   end
   
   private
