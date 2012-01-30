@@ -28,6 +28,6 @@ I want to see them on that project's page
       Then I should see "Standards compliance"
       And I should not see "Make it shiny!"
       When I follow "Standards compliance"
-      Then I should see "Standards" within "#ticket h2"
-      And I should see "Isn't a joke'"
+      Then I should see "Standards compliance" within "#ticket h2"
+      And I should see "Isn't a joke."
       
