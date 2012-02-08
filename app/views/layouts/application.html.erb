@@ -7,7 +7,7 @@
     <% else %>
       Ticketee
     <% end %>
-  </title>snippets:
+  </title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -19,6 +19,9 @@
     <% else %>
       <%= link_to "Sign up", new_user_registration_path %>
       <%= link_to "Sign in", new_user_session_path %>
+    <% end %>
+    <%= admins_only do %>
+      <%= link_to "Admin", admin_root_path %><br>
     <% end %>
   </nav>
   <% flash.each do  |key, value|%>
